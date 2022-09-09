@@ -1,0 +1,30 @@
+* {
+    color: rgb(66, 201, 32);
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.section {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    border: solid 1px rgb(66, 201, 32);
+    display: none;
+}
+
+#about {
+    display: block;
+}

@@ -1,0 +1,13 @@
+.svg {
+    filter: invert(1);
+}
+.svg:hover {
+    transition: 2s;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+.svg-tech {
+    filter: invert(1);
+}
+.svg-tech:hover {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}

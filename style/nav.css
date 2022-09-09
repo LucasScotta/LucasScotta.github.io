@@ -1,0 +1,37 @@
+.navbar {
+    border: 2px solid rgb(66, 201, 32);
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(66, 201, 32);
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.underline:hover {
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
